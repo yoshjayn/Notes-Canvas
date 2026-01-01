@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 const AuthContext = createContext({});
 
 // Configure axios defaults
-axios.defaults.baseURL = '/api';
+axios.defaults.baseURL = 'https://notes-backend-december.vercel.app/api';
 
 // Add token to requests if it exists
 axios.interceptors.request.use(
